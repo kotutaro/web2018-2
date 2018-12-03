@@ -1,3 +1,21 @@
-function mes(){
-  document.getElementById('logo3').src = './image/aaa.png';
+function ChangeImageAndBack(){
+  
+  imgback();
+  
+  ThreeSecChange2();
+  
+  
+}
+
+
+function ThreeSecChange2(){
+   setTimeout("imgchange2()",3000);
+}
+function imgchange2() {
+  document.getElementById('img13').src = './image/koka.png';
+}
+
+
+function imgback() {
+  document.getElementById('img13').src = './image/aaa.png';
 }
